@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 20;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:rgb(92, 88, 88);
+}
+
+
+.header {
+    background-image: url(images/img2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    
+    
+
+}
+.log1 {
+    width: 120px;
+    height: 120px;
+}
+.navbar ul li {
+    position: relative;
+    float: left;
+    
+    
+    
+}
+.navbar ul li a {
+    display: block;
+    padding: 40px;
+    
+}
+
+.navbar ul li a:hover {
+    color: #e26919;
+
+}
+.navbar ul li a {
+    color:#c3c91d;
+}
+.titulo {
+    color: #c3c91d;
+    position: absolute;
+    text-align: center;
+    top: 170px;
+    left: 250px;
+    font-size: 40px;
+
+}
+.agcitas {
+    background-image: url(images/img5.webp);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.agcitas {
+    text-align: center;
+    font-size: 35px;
+    color: #c3c91d;
+
+    
+}
+
+.campo {
+    margin: 5px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 250px;
+    height: 20px;
+
+}
+.products {
+    background-image: url(images/img3.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    padding: 50px;
+
+    
+    
+}
+.products h3 {
+    color: #c3c91d;
+    margin-bottom: 20px;
+
+}
+.clothing {
+    text-align: center;
+    font-size: 35px;
+
+    
+}
+
+.accesory {
+    text-align: center;
+    font-size: 35px;
+
+}
+.hairproducts {
+    text-align: center;
+    font-size: 35px;
+
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: black;
+    min-height: 30vh;
+    
+    
+}
+.contact h3 {
+    color: #c3c91d;
+    font-size: 25px;
+
+}
+.contact p {
+    color: white;
+    font-size: 20px;
+}
+.contact h2 {
+    color: #c3c91d;
+    font-size: 35px;
+
+}
+.blogi {
+    text-align: center;
+    font-size: 35px;
+    color: #c3c91d;
+       
+}
+.blogi {
+    background-color: black;
+    min-height: 30vh;
+
+}
+.blogi h2 {
+    top: 20px;
+}
